@@ -39,6 +39,22 @@ namespace SS13WebMap {
                 }
             } },
 
+            { "hzstation", new Codebase {
+                CodebaseId = "hzstation",
+                CodebaseName = "Hazardstation",
+                TextColour = "#f44336",
+                FancySupport = true,
+                IsAdult = false,
+                LogoPath = "img/logos/aquila.png",
+                GameMaps = new List<GameMap>() {
+                    new GameMap { MapId = "gammastation", MapName = "Gammastation", Layers = new List<string[]> {
+                            new string[] { "Upper Floor", "Upper", "1" },
+                            new string[] { "Lower Floor", "Lower", "1" },
+                        }
+                    },
+                }
+            } },
+
             // ArkStation
             { "arkstation", new Codebase {
                 CodebaseId = "arkstation",
